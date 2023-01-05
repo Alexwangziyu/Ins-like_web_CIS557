@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Follow matches snapshot 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient shadow"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="#"
+      >
+        <img
+          alt=""
+          height="40"
+          src="logo.png"
+          width="115"
+        />
+      </a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul
+          className="navbar-nav me-auto mb-2 mb-lg-0"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current="page"
+              className="nav-link active"
+              onClick={[Function]}
+            >
+              Activity
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current="page"
+              className="nav-link active"
+              id="search"
+              onClick={[Function]}
+            >
+              Search
+            </a>
+          </li>
+          <li
+            className="nav-item dropdown"
+          >
+            <a
+              aria-expanded="false"
+              className="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+            >
+              Todo
+            </a>
+            <ul
+              aria-labelledby="navbarDropdown"
+              className="dropdown-menu"
+            >
+              <li>
+                <a
+                  className="dropdown-item"
+                  onClick={[Function]}
+                >
+                  My Profile
+                </a>
+              </li>
+              <li>
+                <a
+                  className="dropdown-item"
+                  onClick={[Function]}
+                >
+                  New Post
+                </a>
+              </li>
+              <li>
+                <hr
+                  className="dropdown-divider"
+                />
+              </li>
+              <li>
+                <a
+                  className="dropdown-item"
+                  onClick={[Function]}
+                >
+                  Log Out
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <span
+          className="navbar-text"
+        >
+          <div
+            className="navbar-brand marginleft=100px"
+          >
+            Error
+          </div>
+        </span>
+        <span
+          className="navbar-brand"
+        >
+          <a
+            className="navbar-brand"
+            href="http://localhost:3000/profile/null"
+          >
+            <img
+              alt="showcase"
+              className="mb-0 rounded-circle border border-light border-2 display: inline"
+              style={
+                Object {
+                  "borderRadius": "50%",
+                  "height": "2.7rem",
+                  "objectFit": "cover",
+                  "width": "2.7rem",
+                }
+              }
+            />
+          </a>
+        </span>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="css-1846q8b-MuiStack-root"
+  >
+    <span
+      style={
+        Object {
+          "height": "10vh",
+        }
+      }
+    />
+    <img
+      alt="search"
+      src="Component 2.png"
+    />
+  </div>,
+  <div
+    className="css-1846q8b-MuiStack-root"
+  >
+    <div
+      className="search"
+    >
+      <div
+        className="searchInputs"
+      >
+        <input
+          id="searchBar"
+          onChange={[Function]}
+          placeholder="Enter a user here"
+          type="text"
+          value=""
+        />
+        <div
+          className="searchIcon"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="SearchIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
